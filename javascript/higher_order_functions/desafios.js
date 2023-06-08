@@ -28,6 +28,8 @@ console.table(domains)
  * Encontre o maior preço dos produtos abaixo de 100 reais
  */
 
-const pricesBellow100 = shopCart.filter(products => products.unitPrice <= 100)
+const pricesBellow100 = shopCart
+.filter(products => products.unitPrice <= 100)
+.sort((a, b) => b - a)[0];
 
 console.table(pricesBellow100)
