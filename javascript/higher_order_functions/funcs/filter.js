@@ -11,7 +11,7 @@ function childrenAge2to11(element, index, array){
 }
 
 
-// imutabilidade (é o que não muda)
+// imutabilidade (é o que não muda) // código em uma só linha
 const childrenFiltered = childrenAge.filter(
     element => element >= 2 && element <= 11
 );
@@ -19,7 +19,7 @@ const childrenFiltered = childrenAge.filter(
 
 //console.table(childrenFiltered)
 
-// 2. emails rocketseat.com.br
+//2. emails rocketseat.com.br
 
 var filteredRocketseatMails = [];
 for (var i = 0; i< mailList.length; i++){
@@ -28,6 +28,7 @@ for (var i = 0; i< mailList.length; i++){
     }
 }
 
+//em uma só linha
 const filteredMails = mailList.filter(mail => mail.includes("@rocketseat.com"));
 
 console.table(filteredMails);
