@@ -1,4 +1,4 @@
-const {childrenAge, passengers} = require("./data");
+const {childrenAge} = require("./data");
 const {mailList} = require("./data");
 const {shopCart} = require("./data");
 
