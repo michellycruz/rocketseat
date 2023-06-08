@@ -1,6 +1,6 @@
 const {childrenAge, passengers} = require("./data");
 const {mailList} = require("./data");
-
+const {shopCart} = require("./data");
 
 
 /*
@@ -27,3 +27,7 @@ console.table(domains)
 /**
  * Encontre o maior preço dos produtos abaixo de 100 reais
  */
+
+const pricesBellow100 = shopCart.filter(products => products.unitPrice <= 100)
+
+console.table(pricesBellow100)
