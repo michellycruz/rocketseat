@@ -1,3 +1,6 @@
+
+const {childrenAge} = require("./data");
+
 /*
 Adicione o ano de nascimento das crianças para cada elemento do array
 */
@@ -7,6 +10,7 @@ Adicione o ano de nascimento das crianças para cada elemento do array
 /**
  * Crie um array somente com os domínios da lista de email
  */
+
 
 
 /**
